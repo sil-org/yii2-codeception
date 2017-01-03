@@ -1,14 +1,14 @@
 <?php
 namespace Sil\yii\test;
 
-use yii\test\ActiveFixture;
+use yii\test\ActiveFixture as YiiTestActiveFixture;
 
 /**
  * Class FixtureBase
  * Disable foreign key checks before load and enable again after load.
  * @package Sil\yii\test
  */
-class FixtureBase extends ActiveFixture
+class ActiveFixture extends YiiTestActiveFixture
 {
     public function beforeLoad() {
         parent::beforeLoad();
