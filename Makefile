@@ -4,7 +4,7 @@ clean:
 	docker-compose kill
 	docker-compose rm -f
 
-install:
+deps:
 	docker-compose run --rm cli bash -c "composer install"
 
 depsupdate:
