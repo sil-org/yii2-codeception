@@ -1,7 +1,7 @@
 <?php
 namespace Sil\Codeception\TestCase;
 
-use Codeception\Test\TestCaseWrapper as CodeceptionTestCaseTest;
+use Codeception\Test\Unit as CodeceptionTestCaseTest;
 
 /**
  * Class Test
