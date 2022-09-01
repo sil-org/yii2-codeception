@@ -1,4 +1,4 @@
-it-now: clean install test
+default: clean depsupdate lint
 
 clean:
 	docker-compose kill
