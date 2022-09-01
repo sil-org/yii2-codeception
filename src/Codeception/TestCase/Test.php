@@ -1,14 +1,14 @@
 <?php
 namespace Sil\Codeception\TestCase;
 
-use Codeception\TestCase\Test as CodeceptionTestCaseTest;
+use Codeception\Test as CodeceptionTest;
 
 /**
  * Class Test
  * Override __call() to wrap new $this->tester->grabFixture('fixtureType', 'fixtureName') format
  * @package Sil\Codeception\TestCase
  */
-class Test extends CodeceptionTestCaseTest
+class Test extends CodeceptionTest
 {
     /**
      * Add support for old format of getting fixtures using $this->fixtureType('fixtureName') format.
