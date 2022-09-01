@@ -1,4 +1,4 @@
-default: clean depsupdate lint
+default: clean deps lint
 
 clean:
 	docker-compose kill
