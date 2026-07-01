@@ -76,7 +76,7 @@ class UserTest extends Test
     public function fixtures()
     {
         return [
-            'users' => UserFixture::className(),
+            'users' => UserFixture::class,
         ];
     }
     
